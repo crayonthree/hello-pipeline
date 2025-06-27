@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'yourdockerhubusername/hello-world-python'
+        IMAGE_NAME = 'crayonthree/hello-world-python'
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-creds'
     }
 
